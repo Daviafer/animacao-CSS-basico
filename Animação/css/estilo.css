@@ -1,12 +1,13 @@
 @keyframes animacao-box{
+		/* Início da animação*/
 	from{background: red;
 		border-radius: 0px;
 		top: 0;
 		left: 0;
 	}
-
+		/* mudança */
 	to{background: yellow;
-		border-radius: 300px;
+		border-radius: 300px; /* mudança dos cantos (transforma em bola)*/
 		top:200px;
 		left: 400px;
 	}
@@ -19,7 +20,7 @@
 	position: relative;
 	animation-name: animacao-box;
 	animation-duration: 4s;
-	animation-delay: 1s;
+	animation-delay: 1s; /*tempo para iniciar a animação*/
 	animation-iteration-count: 2;
 	animation-direction: alternate;
 
